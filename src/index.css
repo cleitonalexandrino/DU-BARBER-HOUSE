@@ -9,12 +9,13 @@
 
 @layer base {
   body {
-    @apply font-display min-h-screen bg-background-light text-slate-900 m-0 p-0 overflow-hidden;
+    @apply font-display min-h-screen bg-background-light text-slate-900 m-0 p-0;
   }
+
   .dark body {
     @apply bg-background-dark text-slate-100;
   }
-  
+
   .material-symbols-outlined {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
   }
